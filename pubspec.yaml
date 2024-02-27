@@ -1,0 +1,49 @@
+name: layouter
+description: Console Utility
+version: 0.0.1
+homepage:
+publish_to: none
+
+environment:
+  sdk: '>=3.1.1 <4.0.0'
+
+executables:
+  # command: bin/executable.dart
+  layouter: main
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  meta: any
+  
+
+  # tools
+  # ---------------------
+  args: any
+  grinder: any
+  yaml: any
+  json2yaml: any
+  # ---------------------
+
+  # features
+  # ---------------------
+  basic_utils: any
+  change_case: any
+  collection: any
+  path: any
+  
+  logger: any
+
+  pshondation:
+    git:
+      url: https://github.com/pshonkaaa/package.pshondation.dart.git
+
+  json_ex:
+    git:
+      url: https://github.com/pshonkaaa/package.json_ex.dart.git
+  # ---------------------
+
+  bloc:
+    git:
+      url: https://github.com/pshonkaaa/package.bloc.dart.git
